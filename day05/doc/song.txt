@@ -1,0 +1,10 @@
+hello python
+hello java
+hello sql
+hello php
+hello golang
+hello perl
+hello ruby
+hello k8s
+ks8 is good
+ks8 is best
