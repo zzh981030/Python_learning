@@ -15,9 +15,9 @@ right_count = 0
 for i in range(count):
     num1 = random.randint(1, 10)
     num2 = random.randint(1, 10)
-    symbol = random.choice(["+", "-", "*"])
-    result = eval(f"{num1}{symbol}{num2}")
-    question = f"{num1} {symbol} {num2} = ?"
+    symbol = random.choice(["+", "-", "*"])#随机选择加减乘符号
+    result = eval(f"{num1}{symbol}{num2}")#计算结果
+    question = f"{num1} {symbol} {num2} = ?"#打印出问题
     print(question)
     user_answer = int(input("Answer:"))
     if user_answer == result:

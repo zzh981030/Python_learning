@@ -12,13 +12,14 @@ viewsets.ModelViewSet
 
 
 class D(object):
-    def hello(self):
-        print('D')
+    # def hello(self):
+    #     print('D')
+    pass
 
 
 class C(D):
-    # def hello(self):
-    #     print('C')
+    def hello(self):
+        print('C')
     pass
 
 

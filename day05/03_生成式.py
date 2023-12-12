@@ -1,6 +1,7 @@
 # 需求: 生成100个验证码(4个字母组成的验证码)
-import  string
-import  random
+import string
+import random
+
 codes = []
 for count in range(100):
     code = "".join(random.sample(string.ascii_letters, 4))
@@ -22,10 +23,10 @@ nums = [num for num in range(1, 101) if num % 3 == 0]
 print(nums)
 
 # 集合生成式
-result = {i**2 for i in range(10)}
+result = {i ** 2 for i in range(10)}
+# print(sorted(result,reverse=False))
 print(result)
 
 # 字典生成式
-result = {i:i**2 for i in range(10)}
+result = {i: i ** 2 for i in range(10)}
 print(result)
-

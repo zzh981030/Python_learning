@@ -37,6 +37,7 @@ if __name__ == '__main__':
     stack.push(2)
     stack.push(3)
     print(len(stack))  # 3
+    print(type(stack))  # 3
     stack.pop()
     print(stack.is_empty()) # False
     print(stack.top())  # 2

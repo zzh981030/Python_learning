@@ -10,6 +10,7 @@ def login():
 login()
 
 # 2. 局部变量: 局部生效的变量。函数内部的变量。
+age = 20
 def logout():
     age = 19
     print(age)
@@ -29,3 +30,4 @@ def hello():
 money = 100  # 不可变数据类型
 users = []  # 可变数据类型
 hello()
+print(money)

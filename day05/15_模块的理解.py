@@ -18,9 +18,10 @@ l()
 from hello import  *
 print(digits)
 # 5. 模块的其他信息
-"""
+
 import  sys
-print(sys.path)  # 模块的查询路径
+import pprint
+pprint.pprint(sys.path)  # 模块的查询路径
 
 import  hello
 print(dir(hello)) # 查看hello模块可以使用的变量和函数....
@@ -28,6 +29,6 @@ print(dir(hello)) # 查看hello模块可以使用的变量和函数....
 print(hello.__doc__)  # 查看模块的说明文档
 print(hello.__file__) # 显示模块的绝对路径
 print(hello.__name__) # __name__当模块被导入时，显示的是模块的名称。
-"""
+
 
 

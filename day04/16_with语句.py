@@ -9,5 +9,3 @@ with open('doc/test.txt', 'w+') as f:
     f.seek(0, 2)      # 移动指针到文件末尾
     print("当前指针的位置:", f.tell())
     print(f.read())         # 读取文件内容
-
-

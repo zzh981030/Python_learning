@@ -55,7 +55,7 @@ print(s1 - s2)  # {3}
 print(s1 & s2)  # {1, 2}
 s1 = {1, 2, 3}
 s2 = {1, 2, 4}
-print(s1 ^ s2)  # {3, 4}, {1, 2, 3, 4} - {1, 2} = {3,4}
+print(s1 ^ s2)  # {3, 4}, {1, 2, 3, 4} - {1, 2} = {3,4}，全集-交集
 print(s1 | s2)  # {1, 2, 3, 4}
 print(s1.issubset(s2))  # False
 print(s1.isdisjoint(s2)) # False

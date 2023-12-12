@@ -5,7 +5,9 @@ print(t1, type(t1))
 t2 = (1,)   # 重要(易错点):元组只有一个元素时一定要加逗号
 print(t2, type(t2))
 t3 = (1, 1.2, True, [1, 2, 3])
+t4 = list(t3)#元组转换成列表
 print(t3, type(t3))
+print(t4, type(t4))
 
 # 2. 特性
 print((1, 2, 3) + (3,))
@@ -22,4 +24,4 @@ print(t[::-1])
 # 查看: 通过索引和切片查看元素。 查看索引值和出现次数。
 t = (1, 2, 3, 1, 1, 3)
 print(t.count(1))   # 3
-print(t.index(3))   # 2
+print(t.index(3))   # 2 #返回第一次出现这个值的索引

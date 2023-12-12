@@ -13,5 +13,6 @@ while count <= 10:
     print(count)
     if count == 5:
         # 遇到continue跳出本次循环
+        print('hello,world')
         continue
 

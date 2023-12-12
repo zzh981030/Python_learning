@@ -4,7 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2345f343-7167-46ba-8a73-83e593358251" name="默认变更列表" comment="" />
+    <list default="true" id="2345f343-7167-46ba-8a73-83e593358251" name="默认变更列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01/13_break和continue.py" beforeDir="false" afterPath="$PROJECT_DIR$/day01/13_break和continue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01/19_Python内置的数据类型.py" beforeDir="false" afterPath="$PROJECT_DIR$/day01/19_Python内置的数据类型.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02/02_判断回文字符串.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02/02_判断回文字符串.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02/03_字符串的判断和转换.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02/03_字符串的判断和转换.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02/05_字符串的数据清洗.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02/05_字符串的数据清洗.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02/10_小学生计算能力测试系统.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02/10_小学生计算能力测试系统.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02/11_改进版.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02/11_改进版.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03/04_列表的常用方法.py" beforeDir="false" afterPath="$PROJECT_DIR$/day03/04_列表的常用方法.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03/05_元组的操作.py" beforeDir="false" afterPath="$PROJECT_DIR$/day03/05_元组的操作.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03/06_命名元组的操作.py" beforeDir="false" afterPath="$PROJECT_DIR$/day03/06_命名元组的操作.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03/08_列表的练习题目.py" beforeDir="false" afterPath="$PROJECT_DIR$/day03/08_列表的练习题目.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03/09_地址引用和深拷贝和浅拷贝.py" beforeDir="false" afterPath="$PROJECT_DIR$/day03/09_地址引用和深拷贝和浅拷贝.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day04/01_集合的操作.py" beforeDir="false" afterPath="$PROJECT_DIR$/day04/01_集合的操作.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day04/02_集合的练习.py" beforeDir="false" afterPath="$PROJECT_DIR$/day04/02_集合的练习.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day04/08_变量的作用域.py" beforeDir="false" afterPath="$PROJECT_DIR$/day04/08_变量的作用域.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day04/16_with语句.py" beforeDir="false" afterPath="$PROJECT_DIR$/day04/16_with语句.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day04/doc/hosts.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/day04/doc/hosts.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/03_生成式.py" beforeDir="false" afterPath="$PROJECT_DIR$/day05/03_生成式.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/04_生成器.py" beforeDir="false" afterPath="$PROJECT_DIR$/day05/04_生成器.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/06_装饰器.py" beforeDir="false" afterPath="$PROJECT_DIR$/day05/06_装饰器.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/10_内置高阶函数.py" beforeDir="false" afterPath="$PROJECT_DIR$/day05/10_内置高阶函数.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/15_模块的理解.py" beforeDir="false" afterPath="$PROJECT_DIR$/day05/15_模块的理解.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/doc/python.png" beforeDir="false" afterPath="$PROJECT_DIR$/day05/doc/python.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day06/07_多继承.py" beforeDir="false" afterPath="$PROJECT_DIR$/day06/07_多继承.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day06/08_私有属性和私有方法.py" beforeDir="false" afterPath="$PROJECT_DIR$/day06/08_私有属性和私有方法.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day06/09_栈的封装.py" beforeDir="false" afterPath="$PROJECT_DIR$/day06/09_栈的封装.py" afterDir="false" />
+    </list>
     <disabled>
       <disabled_changelists>
         <list default="true" id="18f60224-ec74-43b9-b082-3bb804e0ef21" name="Changes" comment="" />
@@ -15,6 +43,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
     <envs>
@@ -36,6 +71,7 @@
   <component name="ProjectId" id="28rS9yjPg1utXaQoxt9L8T3MC2L" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -45,15 +81,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jdcloud-sdk-python-1.6.180" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.10_for循环">
-    <configuration name="05_用户登录程序" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.16_基于装饰器实现单例模式">
+    <configuration name="10_队列的封装" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -61,11 +97,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day06" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day01/05_用户登录程序.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day06/10_队列的封装.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -74,7 +110,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="07_while循环" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="12_类方法和实例方法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,11 +118,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day06" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day01/07_while循环.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day06/12_类方法和实例方法.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -95,7 +131,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="08_while死循环" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="12_类方法和静态方法理解的简单案例" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -103,11 +139,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day06" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day01/08_while死循环.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day06/12_类方法和静态方法理解的简单案例.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,7 +152,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="09_while练习题目" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="15_理解单例模式" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,11 +160,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day06" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day01/09_while练习题目.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day06/15_理解单例模式.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,7 +173,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="10_for循环" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="16_基于装饰器实现单例模式" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,11 +181,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day06" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day01/10_for循环.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day06/16_基于装饰器实现单例模式.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.10_for循环" />
-        <item itemvalue="Python.09_while练习题目" />
-        <item itemvalue="Python.08_while死循环" />
-        <item itemvalue="Python.07_while循环" />
-        <item itemvalue="Python.05_用户登录程序" />
+        <item itemvalue="Python.16_基于装饰器实现单例模式" />
+        <item itemvalue="Python.15_理解单例模式" />
+        <item itemvalue="Python.12_类方法和静态方法理解的简单案例" />
+        <item itemvalue="Python.12_类方法和实例方法" />
+        <item itemvalue="Python.10_队列的封装" />
       </list>
     </recent_temporary>
   </component>
@@ -185,6 +221,28 @@
       <workItem from="1692595063435" duration="3438000" />
       <workItem from="1701739633040" duration="7000" />
     </task>
+    <task id="LOCAL-00001" summary="20231207">
+      <created>1701933099797</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701933099797</updated>
+    </task>
+    <task id="LOCAL-00002" summary="20231207">
+      <created>1701933111836</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701933111836</updated>
+    </task>
+    <task id="LOCAL-00003" summary="20231207">
+      <created>1701933170084</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701933170084</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,7 +253,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

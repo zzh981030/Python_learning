@@ -9,6 +9,7 @@
 3*6=?
 """
 import random
+import colorama #配置字体颜色的包
 
 count = 10
 right_count = 0
@@ -26,10 +27,10 @@ for i in range(count):
     print(question)
     user_answer = int(input("Answer:"))
     if user_answer == result:
-        print("Right")
+        print(colorama.Fore.GREEN+"Right"+colorama.Style.RESET_ALL)#配置字体颜色+Right+清除字体样式
         right_count += 1
     else:
-        print("Error")
+        print(colorama.Fore.RED + "Error" + colorama.Style.RESET_ALL)#配置字体颜色+Error+清除字体样式
 print("Right percent: %.2f%%" %(right_count/count*100))
 
-    
+

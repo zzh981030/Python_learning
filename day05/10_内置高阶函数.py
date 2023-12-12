@@ -11,7 +11,7 @@ result = reduce(lambda x, y: x + y, [1, 2, 3, 4, 5])
 print(result)
 
 # 练习: 求1*2*..100的结果， 用reduce和匿名函数实现
-result = reduce(lambda x,y: x*y, range(1, 11))
+result = reduce(lambda x,y: x*y, range(1, 5))
 print(result)
 # 3. filter:
 # 筛选所有的偶数

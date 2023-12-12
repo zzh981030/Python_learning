@@ -33,6 +33,8 @@ set1 = {1, 2, 1, 2, 3, 1, 20}
 print(set1)   # 不重复{1, 2, 20}
 set2 = {1, 2, 3}
 set3 = {2, 3, 4}
+set4 = {}
+print(type(set4))
 print("交集:", set2 & set3)
 print("并集:", set2 | set3)
 

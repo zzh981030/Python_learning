@@ -51,7 +51,7 @@ print(li)
 
 # 5. 其他操作
 li = [18, 6, 99, 56]
-li.reverse()  # 类似于li[::-1]
+li.reverse()  # 倒置列表元素，类似于li[::-1]
 print(li)
 
 # sort排序默认由小到大。 如果想由大到小排序，设置reverse=True

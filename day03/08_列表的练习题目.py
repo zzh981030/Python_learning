@@ -10,7 +10,7 @@ menu = """
                 云主机管理系统
         1). 添加云主机
         2). 搜索云主机(IP搜索)
-        3). 删除云主机
+        3). 删除云主机(IP删除)
         4). 云主机列表
         5). 退出系统
         
@@ -33,9 +33,22 @@ while True:
     elif choice == '2':
         print('搜索云主机'.center(50, '*'))
         # 今天的作业: for循环(for...else),判断, break
+        print('请输入云主机IP'.center(50, '*'))
+        ip = input("ip:")
+        ip_count = 0
+        for ip_host in hosts:
+            ip_count += 1
+            if ip == ip_host[0]:
+                print(f'IP为{ip}云主机在列表第{ip_count}行')
+            else:
+                print(f'IP为{ip}没有被添加到当前列表')
     elif choice == '3':
         print('删除云主机'.center(50, '*'))
         # 今天的作业:(选做)
+        ip = input("请输入要删除的云主机ip:")
+
+
+
     elif choice == '4':
         print('云主机列表'.center(50, '*'))
         print("IP\t\t\thostname\tidc")

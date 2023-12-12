@@ -7,9 +7,11 @@
 '''
 
 import random
+import pprint
 
 n = int(input("输入n:"))
 s = set()
 for i in range(n):
-    s.add(random.randint(1, 1000))
-print(sorted(s, reverse=True))
+    s.add(random.randint(1, 1000))#每次生成一个随机数并添加到集合s中，如果有重复则会去重
+pprint.pprint(sorted(s, reverse=True))#对上一步产生的 去重过后的集合s进行从大到小排序
+print(len(s))

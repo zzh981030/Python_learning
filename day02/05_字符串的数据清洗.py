@@ -10,7 +10,7 @@
     'hello '
     >>> " hello ".rstrip()
     ' hello'
-    >>> " hel        lo ".replace(" ", "")
+    >>> " hel    lo ".replace(" ", "")
     'hello'
 
     """
